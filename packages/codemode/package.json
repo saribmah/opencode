@@ -25,12 +25,15 @@
     "test": "bun test"
   },
   "dependencies": {
-    "acorn": "8.15.0",
-    "effect": "catalog:"
+    "acorn": "8.15.0"
+  },
+  "peerDependencies": {
+    "effect": ">=4.0.1"
   },
   "devDependencies": {
     "@tsconfig/bun": "catalog:",
     "@types/bun": "catalog:",
-    "@typescript/native-preview": "catalog:"
+    "@typescript/native-preview": "catalog:",
+    "effect": "catalog:"
   }
 }
